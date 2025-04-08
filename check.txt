@@ -1,2 +1,0 @@
-type: "common.js" for js
-type: "module" for mjs

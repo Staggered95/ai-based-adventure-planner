@@ -22,120 +22,121 @@
     }
   </style>
 </head>
-<body class="bg-gray-50 font-sans">
+<body class="bg-black font-sans bg-[url('public/one.jpg')] bg-cover bg-center bg-fixed h-screen w-full">
   <!-- Navigation -->
-  <nav class="bg-blue-800 text-white shadow-lg">
+  <nav class="bg-gray-900 text-white shadow-lg">
     <div class="container mx-auto px-4 py-3 flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
         </svg>
         <span class="text-xl font-bold">TrailBuddy</span>
+        <span class="text-sm">AI adventure planner</span>
       </div>
       <div class="hidden md:flex space-x-6">
-        <a href="#" class="hover:text-blue-200">Home</a>
-        <a href="#" class="hover:text-blue-200">Destinations</a>
-        <a href="#" class="hover:text-blue-200">About</a>
-        <a href="#" class="hover:text-blue-200">Contact</a>
+        <a href="#features-section" class="hover:text-blue-200">Features</a>
+        <a href="#reviews-section" class="hover:text-blue-200">Reviews</a>
+        <a href="#about" class="hover:text-blue-200">About</a>
       </div>
-      <div>
-        <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg shadow transition">Sign In</button>
-      </div>
+      <a href="#planner">
+        <div class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg shadow transition">Plan your adventure</div>
+      </a>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero-bg text-white py-32">
+  <section class="hero-bg text-white py-32 h-[600px]">
     <div class="container mx-auto px-4 text-center">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">Discover Your Perfect Outdoor Adventure</h1>
       <p class="text-xl md:text-2xl mb-8">Let our AI find the best hiking and camping spots tailored to your preferences</p>
-      <a href="#planner" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition">Start Planning</a>
     </div>
   </section>
 
   <!-- Features Section -->
-  <section class="py-16 bg-white">
+  <section id="features-section" class="py-16 bg-black">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Why Choose TrailBuddy?</h2>
-        <p class="text-gray-600 mt-2">Smart recommendations powered by AI that understand your unique preferences</p>
+        <h2 class="text-3xl font-bold text-gray-100">Why Choose TrailBuddy?</h2>
+        <p class="text-gray-400 mt-2">Smart recommendations powered by AI that understand your unique preferences</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition">
-          <div class="text-blue-600 mb-4">
+        <div class="bg-gray-900 p-6 rounded-lg shadow-md shadow-green-300/30 hover:shadow-lg transition">
+          <div class="text-green-600 mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-800 mb-2">Personalized Recommendations</h3>
-          <p class="text-gray-600">Our AI analyzes your preferences, experience level, and desired features to suggest perfect locations.</p>
+          <h3 class="text-xl font-bold text-gray-200 mb-2">Personalized Recommendations</h3>
+          <p class="text-gray-400">Our AI analyzes your preferences, experience level, and desired features to suggest perfect locations.</p>
         </div>
         
-        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition">
-          <div class="text-blue-600 mb-4">
+        <div class="bg-gray-900 p-6 rounded-lg shadow-md shadow-green-300/30 hover:shadow-lg transition">
+          <div class="text-green-600 mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-800 mb-2">Discover Hidden Gems</h3>
-          <p class="text-gray-600">Find lesser-known trails and campsites that match your criteria but aren't overcrowded.</p>
+          <h3 class="text-xl font-bold text-gray-200 mb-2">Discover Hidden Gems</h3>
+          <p class="text-gray-400">Find lesser-known trails and campsites that match your criteria but aren't overcrowded.</p>
         </div>
         
-        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition">
-          <div class="text-blue-600 mb-4">
+        <div class="bg-gray-900 p-6 rounded-lg shadow-md shadow-green-300/30 hover:shadow-lg transition">
+          <div class="text-green-600 mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-800 mb-2">Detailed Trail Information</h3>
-          <p class="text-gray-600">Get comprehensive details including difficulty, elevation, weather conditions, and user reviews.</p>
+          <h3 class="text-xl font-bold text-gray-200 mb-2">Detailed Trail Information</h3>
+          <p class="text-gray-400">Get comprehensive details including difficulty, elevation, weather conditions, and user reviews.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Planner Form Section -->
-  <section id="planner" class="py-16 bg-gray-100">
+  <section id="planner" class="py-16 bg-black">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Plan Your Adventure</h2>
-        <p class="text-gray-600 mt-2">Tell us what you're looking for and our AI will find the perfect spots</p>
+        <h2 class="text-3xl font-bold text-gray-100">Plan Your Adventure</h2>
+        <p class="text-gray-400 mt-2">Tell us what you're looking for and our AI will find the perfect spots</p>
       </div>
 
-      <form method="post" action="/home" class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
+      <form id="userForm" class="max-w-4xl mx-auto bg-gray-900 rounded-lg shadow-green-300/20 shadow-lg p-8">
         <!-- Basic Information -->
         <div class="mb-8">
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">Basic Information</h3>
+          <h3 class="text-xl font-semibold text-gray-100 mb-4">Basic Information</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label class="block text-gray-700 mb-2" for="location">Starting Location</label>
-              <input type="text" id="location" name="location" placeholder="City, State or Zip Code" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <label class="block font-thin text-gray-200 mb-2" for="location">Starting Location</label>
+              <input type="text" id="location" name="location" placeholder="City, State or Country" class="w-full text-gray-400 text-sm px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-500">
             </div>
             <div class="flex gap-8">
               <div>
-                <label class="block text-gray-700 mb-2" for="start">Start</label>
-                <input type="date" id="start" name="start">
+                <label class="block text-gray-200 font-thin mb-2" for="start">Start</label>
+                <input type="date" id="start" name="start" class="text-gray-400">
               </div>
               <div>
-                <label class="block text-gray-700 mb-2" for="end">End</label>
-                <input type="date" id="end" name="end">
+                <label class="block text-gray-200 font-thin mb-2" for="end">End</label>
+                <input type="date" id="end" name="end" class="text-gray-400">
               </div>
             </div>
             <div>
-              <label class="block text-gray-700 mb-2" for="activity">Primary Activity</label>
-              <select id="activity" name="activity" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <label class="block text-gray-200 font-thin mb-2" for="activity">Primary Activity</label>
+              <select id="activity" name="activity" class="w-full px-4 py-2 border border-gray-300 text-gray-500 rounded-md focus:outline-none focus:ring-1 focus:ring-green-500">
                 <option value="">Select an activity</option>
                 <option value="hiking">Hiking</option>
                 <option value="camping">Camping</option>
                 <option value="backpacking">Backpacking</option>
                 <option value="climbing">Rock Climbing</option>
                 <option value="paddling">Paddling</option>
+                <option value="exploration">Exploration</option>
+                <option value="others">Others</option>
               </select>
             </div>
             <div>
-              <label class="block text-gray-700 mb-2" for="group-size">Group Size</label>
-              <select id="group-size" name="group-size" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <label class="block text-gray-200 font-thin mb-2" for="group-size">Group Size</label>
+              <select id="group-size" name="group-size" class="w-full px-4 py-2 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-500">
                 <option value="1">Solo Adventure</option>
                 <option value="2">2 People</option>
                 <option value="3-5">3-5 People</option>
@@ -148,96 +149,96 @@
 
         <!-- Preferences -->
         <div class="mb-8">
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">Your Preferences</h3>
+          <h3 class="text-xl font-semibold text-gray-100 mb-4">Your Preferences</h3>
           
           <div class="mb-6">
-            <label class="block text-gray-700 mb-2">Experience Level</label>
+            <label class="block text-gray-200 mb-2">Experience Level</label>
             <div class="flex items-center space-x-4">
-              <input type="radio" id="beginner" name="experience" value="beginner" class="form-radio h-5 w-5 text-blue-600">
-              <label for="beginner" class="text-gray-700">Beginner</label>
+              <input type="radio" id="beginner" name="experience" value="beginner" class="form-radio h-5 w-5 accent-green-600 hover:accent-green-300">
+              <label for="beginner" class="text-gray-400">Beginner</label>
               
-              <input type="radio" id="intermediate" name="experience" value="intermediate" class="form-radio h-5 w-5 text-blue-600">
-              <label for="intermediate" class="text-gray-700">Intermediate</label>
+              <input type="radio" id="intermediate" name="experience" value="intermediate" class="form-radio h-5 w-5 accent-green-600 hover:accent-green-300">
+              <label for="intermediate" class="text-gray-400">Intermediate</label>
               
-              <input type="radio" id="advanced" name="experience" value="advanced" class="form-radio h-5 w-5 text-blue-600">
-              <label for="advanced" class="text-gray-700">Advanced</label>
+              <input type="radio" id="advanced" name="experience" value="advanced" class="form-radio h-5 w-5 accent-green-600 hover:accent-green-300">
+              <label for="advanced" class="text-gray-400">Advanced</label>
               
-              <input type="radio" id="expert" name="experience" value="expert" class="form-radio h-5 w-5 text-blue-600">
-              <label for="expert" class="text-gray-700">Expert</label>
+              <input type="radio" id="expert" name="experience" value="expert" class="form-radio h-5 w-5 accent-green-600 hover:accent-green-300">
+              <label for="expert" class="text-gray-400">Expert</label>
             </div>
           </div>
           
           <div class="mb-6">
-            <label class="block text-gray-700 mb-2">Distance Preference (miles)</label>
+            <label class="block text-gray-200 mb-2">Distance Preference (kilometers)</label>
             <div class="flex items-center">
-              <span class="text-gray-600 mr-2">1</span>
-              <input type="range" min="1" max="50" value="10" class="range-slider flex-grow h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer" id="distance-range">
-              <span class="text-gray-600 ml-2">50+</span>
+              <span class="text-gray-400 mr-2">1</span>
+              <input type="range" name="distance" min="1" max="50" value="10" class="range-slider flex-grow h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer accent-green-600" id="distance-range">
+              <span class="text-gray-400 ml-2">50+</span>
             </div>
-            <div class="text-center mt-1 text-gray-600">Selected: <span id="distance-value">10</span> miles</div>
+            <div class="text-center mt-1 text-gray-300">Selected: <span id="distance-value">10</span> miles</div>
           </div>
           
           <div class="mb-6">
-            <label class="block text-gray-700 mb-2">Elevation Gain</label>
+            <label class="block text-gray-200 mb-2">Elevation Gain</label>
             <div class="flex items-center space-x-4">
-              <input type="checkbox" id="minimal" name="elevation" value="minimal" class="form-checkbox h-5 w-5 text-blue-600">
-              <label for="minimal" class="text-gray-700">Minimal (<500 ft)</label>
+              <input type="radio" id="minimal" name="elevation" value="minimal" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+              <label for="minimal" class="text-gray-400">Minimal (<500 ft)</label>
               
-              <input type="checkbox" id="moderate" name="elevation" value="moderate" class="form-checkbox h-5 w-5 text-blue-600">
-              <label for="moderate" class="text-gray-700">Moderate (500-2000 ft)</label>
+              <input type="radio" id="moderate" name="elevation" value="moderate" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+              <label for="moderate" class="text-gray-400">Moderate (500-2000 ft)</label>
               
-              <input type="checkbox" id="significant" name="elevation" value="significant" class="form-checkbox h-5 w-5 text-blue-600">
-              <label for="significant" class="text-gray-700">Significant (2000+ ft)</label>
+              <input type="radio" id="significant" name="elevation" value="significant" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+              <label for="significant" class="text-gray-400">Significant (2000+ ft)</label>
             </div>
           </div>
           
           <div class="mb-6">
-            <label class="block text-gray-700 mb-2">Must-Have Features</label>
+            <label class="block text-gray-200 mb-2">Must-Have Features</label>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <input type="checkbox" id="water-views" name="features" value="water-views" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="water-views" class="text-gray-700 ml-2">Water Views</label>
+                <input type="checkbox" id="water-views" name="features" value="water-views" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="water-views" class="text-gray-400 ml-2">Water Views</label>
               </div>
               <div>
-                <input type="checkbox" id="waterfalls" name="features" value="waterfalls" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="waterfalls" class="text-gray-700 ml-2">Waterfalls</label>
+                <input type="checkbox" id="waterfalls" name="features" value="waterfalls" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="waterfalls" class="text-gray-400 ml-2">Waterfalls</label>
               </div>
               <div>
-                <input type="checkbox" id="mountain-views" name="features" value="mountain-views" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="mountain-views" class="text-gray-700 ml-2">Mountain Views</label>
+                <input type="checkbox" id="mountain-views" name="features" value="mountain-views" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="mountain-views" class="text-gray-400 ml-2">Mountain Views</label>
               </div>
               <div>
-                <input type="checkbox" id="wildlife" name="features" value="wildlife" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="wildlife" class="text-gray-700 ml-2">Wildlife</label>
+                <input type="checkbox" id="wildlife" name="features" value="wildlife" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="wildlife" class="text-gray-400 ml-2">Wildlife</label>
               </div>
               <div>
-                <input type="checkbox" id="dog-friendly" name="features" value="dog-friendly" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="dog-friendly" class="text-gray-700 ml-2">Dog Friendly</label>
+                <input type="checkbox" id="dog-friendly" name="features" value="dog-friendly" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="dog-friendly" class="text-gray-400 ml-2">Dog Friendly</label>
               </div>
               <div>
-                <input type="checkbox" id="swimming" name="features" value="swimming" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="swimming" class="text-gray-700 ml-2">Swimming Spots</label>
+                <input type="checkbox" id="swimming" name="features" value="swimming" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="swimming" class="text-gray-400 ml-2">Swimming Spots</label>
               </div>
               <div>
-                <input type="checkbox" id="campfires" name="features" value="campfires" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="campfires" class="text-gray-700 ml-2">Campfires Allowed</label>
+                <input type="checkbox" id="campfires" name="features" value="campfires" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="campfires" class="text-gray-400 ml-2">Campfires Allowed</label>
               </div>
               <div>
-                <input type="checkbox" id="accessibility" name="features" value="accessibility" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="accessibility" class="text-gray-700 ml-2">Accessible Trails</label>
+                <input type="checkbox" id="accessibility" name="features" value="accessibility" class="form-checkbox h-5 w-5 text-blue-600 accent-green-600 hover:accent-green-300">
+                <label for="accessibility" class="text-gray-400 ml-2">Accessible Trails</label>
               </div>
             </div>
           </div>
           
           <div>
-            <label class="block text-gray-700 mb-2" for="additional-info">Additional Information</label>
-            <textarea id="additional-info" name="additional-info" rows="4" placeholder="Tell us more about what you're looking for..." class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            <label class="block text-gray-200 mb-2" for="additional-info">Additional Information</label>
+            <textarea id="additional-info" name="additional-info" rows="4" placeholder="Tell us more about what you're looking for..." class="w-full px-4 py-2 text-gray-400 font-thin border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
           </div>
         </div>
 
         <!-- Submit -->
         <div class="text-center">
-          <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition">
+          <button id="demo" type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg shadow-green-800 transition">
             Find My Adventure
           </button>
           <p class="text-gray-500 mt-2 text-sm">Our AI will analyze your preferences and provide tailored recommendations</p>
@@ -247,7 +248,7 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="py-16 bg-blue-900 text-white">
+  <section id="reviews-section" class="py-16 bg-black text-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold">What Adventurers Say</h2>
@@ -255,19 +256,19 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-blue-800 p-6 rounded-lg">
+        <div class="bg-gray-800 p-6 rounded-lg">
           <div class="text-yellow-400 mb-4">★★★★★</div>
           <p class="mb-4">"TrailBuddy recommended a hidden gem in the Cascades that perfectly matched my preference for moderate trails with waterfalls. It's like it knew exactly what I was looking for!"</p>
           <div class="font-semibold">- Sarah K., Oregon</div>
         </div>
         
-        <div class="bg-blue-800 p-6 rounded-lg">
+        <div class="bg-gray-800 p-6 rounded-lg">
           <div class="text-yellow-400 mb-4">★★★★★</div>
           <p class="mb-4">"As a beginner hiker, I was worried about finding trails that weren't too challenging. The AI suggested perfect spots that helped me build confidence while enjoying amazing views."</p>
           <div class="font-semibold">- Mike T., Colorado</div>
         </div>
         
-        <div class="bg-blue-800 p-6 rounded-lg">
+        <div class="bg-gray-800 p-6 rounded-lg">
           <div class="text-yellow-400 mb-4">★★★★★</div>
           <p class="mb-4">"Planning a family camping trip was a breeze. The recommendations considered our need for kid-friendly activities while still offering beautiful scenery for the adults."</p>
           <div class="font-semibold">- Jessica M., California</div>
@@ -277,7 +278,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-12">
+  <footer id="about" class="bg-black/80 text-white py-12">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
@@ -324,7 +325,6 @@
             <div class="text-gray-400 mb-2">Subscribe to our newsletter</div>
             <div class="flex">
               <input type="email" placeholder="Email Address" class="px-4 py-2 rounded-l-lg flex-grow focus:outline-none text-gray-800">
-              <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition">Subscribe</button>
             </div>
           </div>
         </div>
@@ -335,15 +335,11 @@
       </div>
     </div>
   </footer>
+  <div id="loadingDiv" class="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-50 z-50 hidden">
+    <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-green-400 border-opacity-75 mb-4"></div>
+    <p class="text-lg text-green-600">Loading...</p>
+  </div>
 
-  <script>
-    // Simple slider functionality
-    const distanceSlider = document.getElementById('distance-range');
-    const distanceValue = document.getElementById('distance-value');
-    
-    distanceSlider.addEventListener('input', function() {
-      distanceValue.textContent = this.value;
-    });
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
