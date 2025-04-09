@@ -1,7 +1,9 @@
 {
-  "public": "public",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1.mjs" }
-  ]
+  ],
+  "static": {
+    "directory": "public"
+  }
 }
 
