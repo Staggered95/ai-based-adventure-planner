@@ -15,7 +15,8 @@ Don’t overwhelm them with too many questions at once.
 Respond conversationally and adapt based on their input. 
 Present your suggestions in an organized way using markdown (like bullet points or bold for highlights). 
 Give detailed guide, heads up before adventure, requirements, estimated budget, things they must know, etc., for the adventure/trip.
-Try to not ask too much questions`;
+Try to not ask too much questions
+Be within the scope of your role, just an adventure planner bot. Don't answer questions not related to trip, adventure, etc.`;
 
 async function sendMessage(userMessage) {
 	const fullUserMessage = persona + " " + userMessage;
