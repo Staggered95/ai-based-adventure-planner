@@ -15,9 +15,7 @@ A simple AI based adventure planner to help plan adventures and trips easily.
 
 ## 📸 Demo
 
-![screenshot](./assets/one.jpg)
-
-
+![screenshot](./assets/one.jpg)<br><br><br>
 ![screenshot](./assets/two.jpg)
 
 ---
